@@ -99,8 +99,6 @@ if(config["delete_output"] == True):
     print("Deleting output directory")
     os.system(f"rm -rfv {config['output_dir']}")
 
-for k,v in config.items():
-    print(f"{k}: {v}")
 
 # -----------------------------
 # Dataset formatting
